@@ -1,6 +1,6 @@
 pragma solidity ^0.6.7;
 
-import "./strategy-abracadabra-base.sol";
+import "./base.sol";
 
 contract StrategyMimEthLp is StrategyAbracadabraFarmBase {
     address public mim_eth_lp = 0x07D5695a24904CC1B6e3bd57cC7780B90618e3c4;
